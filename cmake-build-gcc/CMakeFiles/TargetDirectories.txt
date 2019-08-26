@@ -1,0 +1,13 @@
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/CMakeFiles/install/local.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/CMakeFiles/install/strip.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/CMakeFiles/install.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/CMakeFiles/list_install_components.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/CMakeFiles/rebuild_cache.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/CMakeFiles/edit_cache.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/install/local.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/PotreeConverter.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/rebuild_cache.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/edit_cache.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/install/strip.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/install.dir
+/Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc/PotreeConverter/CMakeFiles/list_install_components.dir

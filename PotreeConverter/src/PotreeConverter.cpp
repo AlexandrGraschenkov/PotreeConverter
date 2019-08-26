@@ -17,6 +17,7 @@
 #include "BINPointReader.hpp"
 #include "PlyPointReader.h"
 #include "XYZPointReader.hpp"
+#include "JSONPointReader.hpp"
 
 #include <chrono>
 #include <sstream>
@@ -70,7 +71,9 @@ PointReader *PotreeConverter::createPointReader(string path, PointAttributes poi
 		reader = new XYZPointReader(path, format, colorRange, intensityRange);
  	}else if(iEndsWith(path, ".bin")){
 		reader = new BINPointReader(path, aabb, scale, pointAttributes);
-	}
+	}else if(iEndsWith(path, ".json")){
+      reader = new JSONPointReader(path);
+    }
 
 	return reader;
 }
@@ -158,9 +161,10 @@ AABB PotreeConverter::calculateAABB(){
 void PotreeConverter::generatePage(string name){
 
 	string pagedir = this->workDir;
-    string templateSourcePath = this->executablePath + "/resources/page_template/viewer_template.html";
-    string mapTemplateSourcePath = this->executablePath + "/resources/page_template/lasmap_template.html";
-    string templateDir = this->executablePath + "/resources/page_template";
+	string projDir = "/../../PotreeConverter";
+    string templateSourcePath = this->executablePath + projDir + "/resources/page_template/viewer_template.html";
+    string mapTemplateSourcePath = this->executablePath + projDir + "/resources/page_template/lasmap_template.html";
+    string templateDir = this->executablePath + projDir + "/resources/page_template";
 
         if(!this->pageTemplatePath.empty()) {
 		templateSourcePath = this->pageTemplatePath + "/viewer_template.html";

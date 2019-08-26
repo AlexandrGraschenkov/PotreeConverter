@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -D CMAKE_C_COMPILER=/usr/local/Cellar/gcc_6/6.4.0_2/bin/gcc-6 -D CMAKE_CXX_COMPILER=/usr/local/Cellar/gcc_6/6.4.0_2/bin/g++-6 -G "CodeBlocks - Unix Makefiles" /Users/alex/Documents/helpers_progect/PotreeConverter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/alex/Documents/helpers_progect/PotreeConverter/cmake-build-gcc
